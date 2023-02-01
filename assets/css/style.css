@@ -1,16 +1,27 @@
 * {
     background-color: black;
-    color: lemonchiffon;
+    color: antiquewhite;
 }
 
+.nav-link {
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 
 
 
 @media screen and (max-width: 992px) {
-    
+    * {
+        background-color: rgb(50, 50, 50);
+        color: lemonchiffon;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
+    * {
+        background-color: lemonchiffon;
+        color: rgb(50, 50, 50);
+    }
 }
