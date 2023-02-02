@@ -25,6 +25,7 @@ a:hover {
     padding-right: 20px;
     text-decoration: none;
     list-style-type: none;
+    display: inline-block;
 }
 
 .content {
@@ -56,6 +57,11 @@ a:hover {
 .contact-me-substance {
     list-style: none;
     display: inline-block;
+}
+
+.contact-me-substance li{
+    display: inline-block;
+    margin-right: 5%;
 }
 
 @media screen and (max-width: 992px) {
