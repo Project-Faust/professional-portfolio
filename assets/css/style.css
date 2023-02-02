@@ -1,5 +1,4 @@
 * {
-    /* background-color: rgb(50, 50, 50); */
     color: black;
     font-family: sans-serif;
 }
@@ -12,13 +11,16 @@
     padding-left: 10%;
 }
 
-.nav-link ul li {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end; */
-    /* float: right; */
+a {
     text-decoration: none;
-    /* display: inline-block; */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-link ul li {
+    text-decoration: none;
     margin-right: 3%;
     padding-right: 20px;
     text-decoration: none;
@@ -29,8 +31,6 @@
     box-sizing: border-box;
     margin-bottom: 20px;
     padding: 10px;
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .content section {
@@ -52,6 +52,12 @@
 .work-substance {
     list-style: none;
 }
+
+.contact-me-substance {
+    list-style: none;
+    display: inline-block;
+}
+
 @media screen and (max-width: 992px) {
     * {
         background-color: rgb(50, 50, 50);
