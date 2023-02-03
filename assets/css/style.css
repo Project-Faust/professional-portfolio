@@ -5,10 +5,22 @@
 
 .header {
     box-sizing: border-box;
-    background-color: lightpink;
-    display: inline-block;
-    margin-left: 50px;
+    background-color: darkslategrey;
+    margin-bottom: 10px;
     padding-left: 10%;
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding-left: 0%;
+}
+
+.header h1,
+.nav-link {
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
 }
 
 a {
@@ -19,61 +31,80 @@ a:hover {
     text-decoration: underline;
 }
 
-.nav-link ul li {
+
+.nav-link li {
     text-decoration: none;
     margin-right: 3%;
     padding-right: 20px;
     text-decoration: none;
     list-style-type: none;
-    display: inline-block;
+    white-space: nowrap;
+}
+
+.nav-link a {
+    color: antiquewhite;
+}
+
+#chevelle-pic {
+    background-image: url("../images/chevelle.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.header,
+.chevell-pic,
+.content {
+    border: black;
+    border-style: solid;
 }
 
 .content {
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    display: flex;
 }
 
 .content section {
-    margin: 20px;
-    padding: 10px;
-    background-color: darkviolet;
+     margin: 20px;
+
     color: white;
 }
 
 .content-name {
     float: left;
-    color: white;
+    color: antiquewhite;
 }
 
 .substance {
+    display: flex;
     margin-left: 15%;
 }
 
-.work-substance {
+.work-substance, .contact-me-substance {
     list-style: none;
+    display: flex;
 }
 
+.work-substance {
+    flex-direction: column;
+}
 .contact-me-substance {
     list-style: none;
-    display: inline-block;
-}
-
-.contact-me-substance li{
-    display: inline-block;
-    margin-right: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 992px) {
     * {
-        background-color: rgb(50, 50, 50);
-        color: lemonchiffon;
     }
 }
 
 @media screen and (max-width: 768px) {
     * {
-        background-color: lemonchiffon;
-        color: rgb(50, 50, 50);
     }
 }
