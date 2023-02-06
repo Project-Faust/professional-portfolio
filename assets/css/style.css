@@ -62,12 +62,10 @@ a:hover {
 }
 
 .section-title {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-decoration: underline;
     text-decoration-color: antiquewhite;
 }
+
 .content {
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -76,6 +74,7 @@ a:hover {
 }
 
 .content-name {
+    max-width: 15%;
     color: antiquewhite;
     text-shadow: 1px 1px black;
     margin-left: 3%;
@@ -86,8 +85,8 @@ a:hover {
     color: white;
 }
 
-.substance {
-    margin-left: 15%;
+#about-me-substance {
+    justify-content: center;
 }
 
 #work-substance {
