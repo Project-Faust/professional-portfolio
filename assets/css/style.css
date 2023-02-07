@@ -61,6 +61,16 @@ a:hover {
     border-style: solid;
 }
 
+.header {
+    /* position: relative; */
+}
+
+.header img {
+    display: inline;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
 .section-title {
     text-decoration: underline;
     text-decoration-color: antiquewhite;
@@ -89,10 +99,33 @@ a:hover {
     justify-content: center;
 }
 
+#about-me-substance p {
+    text-indent: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
 #work-substance {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#work-1 {
+    flex: 1 0 auto;
+    /* background-size: cover; */
+    /* background-position: center; */
+    width: 312px;
+}
+#work-1 a {
+    width: 312px;
+}
+#work-1 img {
+    height: 200px;
+    width: 312px;
 }
 
 #work-substance section {
