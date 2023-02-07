@@ -35,6 +35,7 @@ a:hover {
 
 .nav-link li {
     text-decoration: none;
+    margin-left: 3%;
     margin-right: 3%;
     padding-right: 20px;
     text-decoration: none;
@@ -62,14 +63,19 @@ a:hover {
 }
 
 .header {
-    /* position: relative; */
+flex-direction: column;
 }
 
 .header img {
     display: inline;
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 222x;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px;
+    border-style: solid;
+    border-color: antiquewhite;
 }
 .section-title {
     text-decoration: underline;
@@ -115,17 +121,18 @@ a:hover {
 }
 
 #work-1 {
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
     /* background-size: cover; */
     /* background-position: center; */
-    width: 312px;
+    /* width: 325px; */
 }
 #work-1 a {
     width: 312px;
 }
 #work-1 img {
-    height: 200px;
-    width: 312px;
+    height: 400px;
+    /* width: 312px; */
+    object-fit: cover;
 }
 
 #work-substance section {
